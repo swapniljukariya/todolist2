@@ -1,38 +1,97 @@
-.App {
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+
+
+}
+.Header{
+  margin-top: 2em;
   text-align: center;
-}
+  font-size: 2.9rem;
+  color: brown;
+  font-weight:bold ;
+  margin: 1em;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input-section{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+}
+.filters{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.2em;
+  width: 35vw;
+ 
 }
 
-.App-link {
-  color: #61dafb;
+input{
+  height: 7vh;
+  width: 35vw;
+  border: 1px solid brown;
+  font-size: 1rem;
+  padding-left: 0.6;
+  
 }
+.btn{
+  height: 7.5vh;
+  width: 6vw;
+  border: 1px solid brown;
+  background-color: white;
+  }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  .display-section{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    margin: 3.5rem;
+    font-size: 1.6em;
+    
+    height: 100vh;
+    border-radius: 12px;
+    
+   
+    }
+   .todo{
+  border:  1px solid brown;
+   
+    width:100vh;
+    padding: 0.9em;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 1.5em;
+    gap: 65%;
+   
+    
+
+   }
+   .title{
+    text-align: center;
+    margin-top: 1.8em;
+    font-size: 1.9rem;
+    color: brown;
+   }
+   .btn-i{
+    background-color: white;
+    border: none;
+    font-size: 1.3em;
+    }
+    .btn-ij{
+      background-color: brown;
+      color: white;
+      height: 3em;
+      width: 4em;
+    }
+    .toggle{
+      display: flex;
+      align-items: center;
+     width: 20vw;
+      gap: 2rem;
+
+    }
